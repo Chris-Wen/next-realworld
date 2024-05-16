@@ -18,10 +18,15 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  margin: 0 auto;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.dev {
+  border: 1px solid red !important;
 }

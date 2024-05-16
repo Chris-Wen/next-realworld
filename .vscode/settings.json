@@ -62,5 +62,11 @@
     ".eslintrc.*": ".eslint*,.prettierignore,.stylelint*,.commitlintrc.*,postcss*,.prettierrc*"
   },
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
 }

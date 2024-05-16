@@ -1,6 +1,6 @@
 module.exports = {
   singleQuote: false, // 使用双引号
-  printWidth: 120, // 设置行宽度为100，稍微宽一点可能更适合现代屏幕
+  printWidth: 150, // 设置行宽度为100，稍微宽一点可能更适合现代屏幕
   semi: true, // 使用分号
   trailingComma: "all", // 在多行输入的尾逗号处添加一个逗号
   // TypeScript相关配置
