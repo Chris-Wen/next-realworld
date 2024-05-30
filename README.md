@@ -52,7 +52,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - components/ # 可复用的UI组件
 - models/ # 数据模型
 - services/ # 服务层，业务逻辑处理
-- validators/ # 数据验证
+- validators/ # 数据验证 --- zod
 - public/ # 静态资源文件夹
 - styles/ # 样式文件夹
 - contexts/ # React上下文提供者

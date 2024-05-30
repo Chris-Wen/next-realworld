@@ -57,8 +57,8 @@
   "explorer.fileNesting.patterns": {
     "*.env": "$(capture).env.*",
     "CHANGELOG.md": "CHANGELOG*",
-    "tsconfig.*": "next-env.*",
-    "package.json": "tailwind.*,pnpm-lock.yaml,pnpm-workspace.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,CNAME,.npmrc,.browserslistrc",
+    "next.config.*": "next*,tailwind.*",
+    "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,CNAME,.npmrc,.browserslistrc",
     ".eslintrc.*": ".eslint*,.prettierignore,.stylelint*,.commitlintrc.*,postcss*,.prettierrc*"
   },
   "typescript.tsdk": "node_modules/typescript/lib",
