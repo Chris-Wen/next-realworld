@@ -1,4 +1,4 @@
-// prisma实例化最佳实践 -- 接近db连接数问题
+// prisma实例化最佳实践 -- 解决db连接数问题
 // https://www.prisma.io/docs/guides/database/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices
 
 import { PrismaClient, Prisma } from "@prisma/client";
